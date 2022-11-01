@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #161414;
+}
+
+.nav {
+    margin-right: 20px;
+    padding: 3vh 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 12vw;
+    padding: 1.2vh 6vw;
+}
+
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 2vh 1.5vw;
+    font-weight: 500;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: '';
+    background-color: #DC143C;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    transition: 0.35s;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+main {
+    display: flex;
+}
+
+.head {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.head h2 {
+    font-size: 54px;
+    margin-top: 65px;
+    margin-bottom: -20px;
+}
+
+.head h2 span {
+    color: #DC143C;
+}
+
+.type {
+    color: #DC143C;
+    width: 100%;
+    animation: typing 3s steps(120), blink 1s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+.head h1{
+    font-family: none;
+}
+.head h1 span {
+    color: aliceblue;
+}
+
+.shortbio p {
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+.bio {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.bio p {
+    padding-bottom: 10px;
+}
+
+.bio a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bio a::after {
+    content: '';
+    background-color: #DC143C;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    transition: 0.2s;
+}
+
+.bio a:hover::after {
+    width: 100%;
+}
+
+.manimg img {
+    margin-top: 30px;
+    margin-right:100px
+}
+.red{
+    color: #DC143C;
+}
+.quote{
+    border: 1px solid rgb(80, 78, 78);
+    width: 47%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center ;
+    padding: 8px 0px;
+    color: whitesmoke;
+    font-size: large;
+}
+#about{
+    display: flex;
+    width: 100%;
+}
+.aboutImg{
+    margin: 145px 0px;
+    margin-left: 150px;
+}
+.aboutSkills{
+    color: aliceblue;
+    margin: 150px 100px;
+}
+.aboutSkills p{
+    margin-top: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px;
+}
+.skillset {
+    padding: 40px 0 0 0 ;
+    font-size: 18px;
+}
+.ep {
+    content: '';
+    background-color: #DC143C;
+    height: 3px;
+    width: 400px;
+    position: absolute;
+    margin: -12px;
+    margin-left: 120px;
+}
+
+.sfp {
+    content: '';
+    background-color: #DC143C;
+    height: 3px;
+    width: 375px;
+    position: absolute;
+    margin: -12px;
+    margin-left: 120px;
+}
+
+.fp {
+    content: '';
+    background-color: #DC143C;
+    height: 3px;
+    width: 250px;
+    position: absolute;
+    margin: -12px;
+    margin-left: 120px;
+}
+
+.tfp {
+    content: '';
+    background-color: #DC143C;
+    height: 3px;
+    width: 125px;
+    position: absolute;
+    margin: -12px;
+    margin-left: 120px;
+}
